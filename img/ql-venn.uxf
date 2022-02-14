@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.3.0">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>20</x>
+      <y>0</y>
+      <w>240</w>
+      <h>240</h>
+    </coordinates>
+    <panel_attributes>Guidelines for
+Language
+Subsetting
+(e.g., MISRA-C)
+bg=red
+fg=white
+layer=1</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLUseCase</id>
+    <coordinates>
+      <x>210</x>
+      <y>50</y>
+      <w>190</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>Guidelines for
+Layout
+Formatting
+and Style
+(e.g., QL:C/C++:2022)
+bg=blue
+fg=white
+layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
