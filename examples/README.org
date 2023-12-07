@@ -1,0 +1,23 @@
+* Example Files
+
+** C
+
+#+BEGIN_SRC sh
+find ../../qpc/src -name '*.c' -exec cat {} + > qpc.c
+#+END_SRC
+
+** C++
+
+#+BEGIN_SRC sh
+find ../../qpcpp/src -name '*.cpp' -exec cat {} + > qpcpp.cpp
+#+END_SRC
+
+* Clang-Format
+
+Run clang format detector on qpc.c and qpc.cpp.
+
+#+BEGIN_SRC sh
+clang-format qpc.c > qpc-formatted.c
+diff -y --suppress-common-lines qpc.c qpc-formatted.c | wc -l
+#+END_SRC
+
